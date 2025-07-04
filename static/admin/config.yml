@@ -2,9 +2,8 @@ backend:
   name: github
   repo: CoDeMan-CoDeMaN/edu-blog
   branch: main
-  auth_scope: repo
   base_url: https://enochboadu.netlify.app
-  auth_endpoint: /admin/callback
+  auth_endpoint: api/auth
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
