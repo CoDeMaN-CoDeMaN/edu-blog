@@ -1,10 +1,9 @@
-baseURL = "https://enochboadu.app/"
+baseURL = "https://enochboadu.netlify.app/" # CORRECT THIS LINE
 languageCode = "en-us"
 title = "My Educational Blog"
 theme = "stack"
 mainSections = ["posts"]
 
 [params]
-  # This is a minimal set. You can customize later.
   description = "A blog about educational strategies."
-  avatar = "/images/default_avatar.png" # You'll need to add a default_avatar.png to your static/images folder
+  avatar = "/images/default_avatar.png"
