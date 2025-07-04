@@ -2,8 +2,8 @@ baseURL = "https://enochboadu.netlify.app/"
 languageCode = "en-us"
 title = "My Educational Blog"
 theme = "stack" # CHANGE BACK TO STACK
-mainSections = ["posts"]
 
 [params]
   description = "A blog about educational strategies."
   avatar = "/images/default_avatar.png"
+  mainSections = ["posts"]  # ✅ Moved here
