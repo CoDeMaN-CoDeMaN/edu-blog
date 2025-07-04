@@ -287,7 +287,7 @@ As we continue to navigate a world that demands continuous learning and adaptati
 
 <!---->
 
-![profile picture](https://lh3.googleusercontent.com/a/ACg8ocJaUE5kgCVc7u0IL2nFh1vUFGN7HqRfMXgQppGYmuZRkAwzpEA=s64-c)
+![profile picture](/images/uploads/screenshot-2025-04-26-174410.png)
 
 <!---->
 
@@ -322,8 +322,6 @@ As we continue to navigate a world that demands continuous learning and adaptati
 <!---->
 
 <!---->
-
-
 
 <!---->
 
