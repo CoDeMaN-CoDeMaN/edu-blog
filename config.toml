@@ -1,5 +1,10 @@
-baseURL = "https://enochboadu.netlify.app/" # Updated to your live site URL
+baseURL = "https://enochboadu.app/"
 languageCode = "en-us"
 title = "My Educational Blog"
-theme = "stack" # Updated to use the 'stack' theme you just added
-mainSections = ["posts"] # ADD THIS LINE
+theme = "stack"
+mainSections = ["posts"]
+
+[params]
+  # This is a minimal set. You can customize later.
+  description = "A blog about educational strategies."
+  avatar = "/images/default_avatar.png" # You'll need to add a default_avatar.png to your static/images folder
