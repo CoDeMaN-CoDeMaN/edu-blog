@@ -1,7 +1,18 @@
----
-title: "Welcome to My Educational Blog"
-type: "home" # CHANGE THIS LINE
----
-# Welcome
+baseURL = "https://enochboadu.netlify.app/"
+languageCode = "en-us"
+title = "My Educational Blog"
+theme = "stack"
+mainSections = ["posts"]
 
-Hello! This is the homepage of my blog.
+[params]
+  description = "A blog about educational strategies."
+  avatar = "/images/default_avatar.png"
+
+# You can add more parameters here as you explore the Stack theme's options.
+# For example, to enable a search bar:
+# [params.algolia]
+#   enable = true
+#   appId = "YOUR_ALGOLIA_APP_ID"
+#   apiKey = "YOUR_ALGOLIA_SEARCH_API_KEY"
+#   indexName = "YOUR_ALGOLIA_INDEX_NAME"
+#   debug = false # Set to true to see debug info in console
