@@ -1,7 +1,7 @@
-baseURL = "https://enochboadu.netlify.app/" # CORRECT THIS LINE
+baseURL = "https://enochboadu.netlify.app/"
 languageCode = "en-us"
 title = "My Educational Blog"
-theme = "stack"
+theme = "ananke" # CHANGED TO ANANKE
 mainSections = ["posts"]
 
 [params]
