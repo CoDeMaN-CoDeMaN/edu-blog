@@ -1,7 +1,4 @@
 ---
 title: "Welcome to My Educational Blog"
-type: "page"
+layout: "list"
 ---
-# Welcome
-
-Hello! This is the homepage of my blog.
