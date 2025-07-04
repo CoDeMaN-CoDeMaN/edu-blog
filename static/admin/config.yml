@@ -1,9 +1,8 @@
 backend:
-  name: github
-  repo: CoDeMan-CoDeMaN/edu-blog
+  name: git-gateway # This is the key change! It uses Netlify's Git Gateway.
   branch: main
-  base_url: https://enochboadu.netlify.app
-  auth_endpoint: api/auth
+  identity_url: https://enochboadu.netlify.app/.netlify/identity # Explicitly point to your Netlify Identity endpoint
+  gateway_url: https://enochboadu.netlify.app/.netlify/git # Explicitly point to your Netlify Git Gateway endpoint
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
