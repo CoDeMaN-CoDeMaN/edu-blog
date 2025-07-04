@@ -1,5 +1,5 @@
 ---
-title: Benefits of Reading
+title: The Transformative Power of Active Learning Strategies: Beyond Rote Memorization
 date: 2025-07-04T15:27:42.711Z
 draft: false
 ---
