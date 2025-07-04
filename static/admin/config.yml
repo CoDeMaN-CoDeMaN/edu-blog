@@ -4,7 +4,7 @@ backend:
   identity_url: https://enochboadu.netlify.app/.netlify/identity
   gateway_url: https://enochboadu.netlify.app/.netlify/git
 
-publish_mode: editorial_workflow # <-- This is the added line
+publish_mode: editorial_workflow
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
@@ -19,3 +19,15 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  # --- START NEW 'PAGES' COLLECTION ---
+  - name: "pages" # Unique identifier for this collection
+    label: "Pages" # Label that appears in Netlify CMS UI
+    folder: "content/pages" # Directory where these pages will be stored in your Hugo project
+    create: true # Allow creating new pages
+    slug: "{{slug}}" # Use the slug for the file name (e.g., privacy-policy.md)
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Body", name: "body", widget: "markdown", required: true }
+      - { label: "Permalink", name: "permalink", widget: "string", required: false, pattern: '^(\/[a-zA-Z0-9_-]+)*\/$', hint: 'e.g., /privacy-policy/, /about-us/' } # Optional: for custom URLs
+  # --- END NEW 'PAGES' COLLECTION ---
