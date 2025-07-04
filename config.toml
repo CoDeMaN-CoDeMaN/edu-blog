@@ -1,7 +1,7 @@
 baseURL = "https://enochboadu.netlify.app/"
 languageCode = "en-us"
 title = "My Educational Blog"
-theme = "ananke" # CHANGED TO ANANKE
+theme = "stack" # CHANGE BACK TO STACK
 mainSections = ["posts"]
 
 [params]
