@@ -2,7 +2,7 @@ backend:
   name: github
   repo: CoDeMan-CoDeMaN/edu-blog
   branch: main
-  auth_type: oauth
+  auth_scope: repo
   base_url: https://enochboadu.netlify.app
   auth_endpoint: /admin/callback
 
