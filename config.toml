@@ -1,9 +1,7 @@
-baseURL = "https://enochboadu.netlify.app/"
-languageCode = "en-us"
-title = "My Educational Blog"
-theme = "stack" # CHANGE BACK TO STACK
+---
+title: "Welcome to My Educational Blog"
+type: "page"
+---
+# Welcome
 
-[params]
-  description = "A blog about educational strategies."
-  avatar = "/images/default_avatar.png"
-  mainSections = ["posts"]  # ✅ Moved here
+Hello! This is the homepage of my blog.
