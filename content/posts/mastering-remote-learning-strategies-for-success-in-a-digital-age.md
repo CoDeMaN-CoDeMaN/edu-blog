@@ -1,5 +1,5 @@
 ---
-title: "The Transformative Power of Active Learning Strategies: Beyond Rote Memorization"
+title: "Mastering Remote Learning: Strategies for Success in a Digital Age"
 date: 2024-07-04T15:27:42Z # Updated to a date in the past
 draft: false
 categories:
