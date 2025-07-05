@@ -1,4 +1,4 @@
-baseURL = "https://enochboadu.netlify.app/"
+baseURL = "https://educationalblog.netlify.app/"
 languageCode = "en-us"
 title = "My Educational Blog"
 theme = "stack"
